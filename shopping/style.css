@@ -1,0 +1,42 @@
+.center-text {
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.zoom-image, .zoom1-image, .khowong-image, .nakoo-image {
+    transition: transform 0.3s; /* ใช้ transition เพื่อทำให้การซูมดูนุ่มนวล */
+    display: block;
+}
+
+.zoom-image {
+    width: 300px;
+    height: 200px;
+    left: 500px;
+    top: 1px;
+}
+
+.zoom1-image {
+    width: 300px;
+    height: 300px;
+    left: -200px;
+    top: 30px;
+}
+
+.khowong-image {
+    width: 125px;
+    height: 130px;
+    left: 22.5px;
+    top: -144px;
+}
+
+.nakoo-image {
+    width: 90px;
+    height: 150px;
+    left: -145px;
+    top: -175px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalasin</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--<style>
+        .center-text {
+            text-align: center;
+        }
+        
+        .image-container {
+            position: relative;
+            display: inline-block;
+            margin: 10px auto;
+        }
+        
+        .zoom-image, .zoom1-image, .khowong-image, .nakoo-image {
+            transition: transform 0.3s; /* ใช้ transition เพื่อทำให้การซูมดูนุ่มนวล */
+            display: block;
+        }
+        
+        .zoom-image {
+            width: 300px;
+            height: 200px;
+            left: 500px;
+            top: 1px;
+        }
+        
+        .zoom1-image {
+            width: 300px;
+            height: 300px;
+            left: -200px;
+            top: 30px;
+        }
+        
+        .khowong-image {
+            width: 125px;
+            height: 130px;
+            left: 22.5px;
+            top: -144px;
+        }
+
+        .nakoo-image {
+            width: 90px;
+            height: 150px;
+            left: -145px;
+            top: -175px;
+        }
+    </style> -->
+</head>
+<body style="background-color:rgb(170, 170, 170);">
+    <h1 class="center-text">Kalasin</h1>
+    
+    <div class="image-container">
+        <img src="../image/kalasin.png" alt="" class="zoom-image">
+    </div>
+    <div class="image-container">
+        <img src="../image/maptest3.png" alt="" class="zoom1-image">
+    </div>
+    <div class="image-container">
+        <img src="../image/khowong.png" alt="" class="khowong-image">
+    </div>
+    <div class="image-container">
+        <img src="../image/nakoo.png" alt="" class="nakoo-image">
+    </div>
+    
+    <a href="../index.html" class="home-text">home</a>
+
+    <script>
+        document.querySelectorAll('.image-container img').forEach(img => {
+            img.addEventListener('mousemove', function(e) {
+                const canvas = document.createElement('canvas');
+                const context = canvas.getContext('2d');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                context.drawImage(img, 0, 0, img.width, img.height);
+
+                const x = e.offsetX;
+                const y = e.offsetY;
+                const pixel = context.getImageData(x, y, 1, 1).data;
+                const alpha = pixel[3];
+
+                if (alpha > 0) {
+                    img.style.transform = 'scale(1.1)';
+                    img.style.zIndex = '1';
+                } else {
+                    img.style.transform = 'scale(1)';
+                    img.style.zIndex = '0';
+                }
+            });
+
+            img.addEventListener('mouseleave', function() {
+                img.style.transform = 'scale(1)';
+                img.style.zIndex = '0';
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
