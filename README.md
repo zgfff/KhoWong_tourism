@@ -1,9 +1,8 @@
 # KhoWong Tourism
 
-**KhoWong Tourism** is a feature-rich web platform designed to promote tourism and cultural heritage in **Kalasin Province, Thailand**. The platform combines engaging multimedia content, interactive maps, and a responsive user interface to provide an immersive experience for visitors.
+**KhoWong Tourism** is a web platform designed to promote tourism and cultural heritage in **Kho Wong District, Kalasin Province, Thailand**. The platform showcases local attractions and culture through engaging multimedia content, interactive maps, and a responsive user interface for an immersive experience.
 
-**KhoWong Tourism** เป็นแพลตฟอร์มเว็บที่มีฟีเจอร์ครบครัน ออกแบบมาเพื่อส่งเสริมการท่องเที่ยวและมรดกวัฒนธรรมใน **จังหวัดกาฬสินธุ์** แพลตฟอร์มนี้รวมสื่อมัลติมีเดียที่น่าสนใจ แผนที่แบบโต้ตอบ และอินเทอร์เฟซที่ตอบสนองการใช้งานได้ดี เพื่อมอบประสบการณ์ที่สมจริงสำหรับผู้เข้าชม
-
+**KhoWong Tourism** เป็นแพลตฟอร์มเว็บที่ออกแบบมาเพื่อส่งเสริมการท่องเที่ยวและมรดกวัฒนธรรมใน **อำเภอเขาวง จังหวัดกาฬสินธุ์**
 ---
 
 ## Live Demo / ตัวอย่างเว็บไซต์
