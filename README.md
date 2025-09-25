@@ -1,8 +1,8 @@
-# KhoWong Tourism
+# KhaoWong Tourism
 
-**KhoWong Tourism** is a web platform designed to promote tourism and cultural heritage in **Kho Wong District, Kalasin Province, Thailand**. The platform showcases local attractions and culture through engaging multimedia content, interactive maps, and a responsive user interface for an immersive experience.
+**KhaoWong Tourism** is a web platform designed to promote tourism and cultural heritage in **KhaoWong District, Kalasin Province, Thailand**. The platform showcases local attractions and culture through engaging multimedia content, interactive maps, and a responsive user interface for an immersive experience.
 
-**KhoWong Tourism** เป็นแพลตฟอร์มเว็บที่ออกแบบมาเพื่อส่งเสริมการท่องเที่ยวและมรดกวัฒนธรรมใน **อำเภอเขาวง จังหวัดกาฬสินธุ์**
+**KhaoWong Tourism** เป็นแพลตฟอร์มเว็บที่ออกแบบมาเพื่อส่งเสริมการท่องเที่ยวและมรดกวัฒนธรรมใน **อำเภอเขาวง จังหวัดกาฬสินธุ์**
 ---
 
 ## Live Demo / ตัวอย่างเว็บไซต์
@@ -42,4 +42,4 @@
 
 1. Clone the repository / Clone โปรเจกต์:  
    ```bash
-   git clone https://github.com/zgfff/KhoWong_tourism.git
+   git clone https://github.com/zgfff/KhaoWong_tourism.git
